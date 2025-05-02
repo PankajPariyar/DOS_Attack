@@ -24,5 +24,5 @@ sudo hping3 -S --flood -a 10.10.10.10 -p 80 192.168.233.133
 
 This screenshot shows the SYN flood attack captured using Wireshark with the filter:
 
-![Wireshark SYN Flood](images/wireshark_syn_flood.png)
+![Wireshark SYN Flood](Screenshots/dos_attack.png)
 
